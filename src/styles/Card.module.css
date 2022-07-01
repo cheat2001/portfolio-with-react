@@ -13,6 +13,7 @@
     transition: 0.5s;
     cursor: pointer;
     border: 2px solid #12463D;
+    position: relative;
 
 }
 .card:hover{
@@ -23,7 +24,7 @@
     transform: scale(.9);
 }
 .imgContainer{
-    margin-top: 10px;
+    margin-top: 20px;
     width: 80%;
     height: 230px;
     overflow: hidden;
@@ -38,4 +39,25 @@
 }
 .title{
     font-weight: 500;
+}
+
+.circleContainer{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5px;
+    display: flex;
+    gap: 10px;
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    background-color: #0aa084;
+    border-radius: 50%;
+}
+.circle3{
+    background-color:#12463D;
+}
+.circle2{
+    background-color: #CFECE7;
 }
