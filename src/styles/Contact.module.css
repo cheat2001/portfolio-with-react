@@ -16,7 +16,15 @@
 }
 .contact h1{
     margin-top: 20px;
+    color: #12463D;
 }
 .contact h3{
+    color: #12463D;
     margin-top: 10px;
+}
+.contact a{
+    color: #41D6BB;
+}
+.contact a:hover{
+    color: #12463D;
 }

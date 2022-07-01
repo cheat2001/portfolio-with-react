@@ -8,6 +8,7 @@ import Vaikaorm from "../images/vaikaorm.png"
 import Quiz from "../images/quiz.png"
 import Telegram from "../images/telegram.png"
 import Sabey from "../images/sabey.png"
+import More from "../images/more.jpg"
 function Projects() {
   return (
     <Animation>
@@ -21,6 +22,7 @@ function Projects() {
        <Card image={Vaikaorm} title="Vai Kaorm"/>
        <Card image={Quiz} title="Khmer Quiz"/>
        <Card image={Telegram} title="Telegram Clone"/>
+       <Card image={More} title="And Many More..."/>
        </div>
     </div>
     </Animation>

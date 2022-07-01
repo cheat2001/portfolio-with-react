@@ -54,9 +54,6 @@ const [state,setState]=useState(false);
                  <NavLink style={navLinkStyle} to={"/projects"}>PROJECTS</NavLink>
              </li>
              <li>
-                 <NavLink style={navLinkStyle} to={"/cv"}>CV</NavLink>
-             </li>
-             <li>
                  <NavLink style={navLinkStyle} to={"/contact"}>CONTACT</NavLink>
              </li>
         </ul>
