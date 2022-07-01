@@ -1,0 +1,10 @@
+.socialMedia{
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+.socialMedia:hover{
+    transform: scale(1);
+}
+.socialMedia:active{
+    transform: scale(0.5);
+}
