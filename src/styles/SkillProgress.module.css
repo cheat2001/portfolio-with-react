@@ -1,0 +1,33 @@
+.SkillProgress{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;
+    gap: 10px;
+}
+.progress{
+    width: 100%;
+    height: 10px;
+    background-color: #41D6BB;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.progressPercentage{
+  height: 100%;
+  background-color: #12463D;
+}
+.percentage{
+  font-size: 20px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+
+@media (max-width:600px) {
+  .SkillProgress{
+    padding: 2px;
+    gap: 2px;
+  }
+}

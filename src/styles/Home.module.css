@@ -1,0 +1,85 @@
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+    justify-content: space-around;
+    color: #12463D;
+    position: relative;
+}
+.home::before{
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 200px;
+  background-color: #41D6BB;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
+  opacity: 0.3;
+  box-shadow: 5px 0 10px rgba(0,0,0,.3);
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.home::after{
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 200px;
+  background-color: #41D6BB;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
+  opacity: 0.3;
+  box-shadow: -5px 0 10px rgba(0,0,0,.3);
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.homeLeftSide{
+    max-width: 400px;
+    line-height: 40px;
+
+    padding: 20px;
+}
+.welcomeToMyPortfolio{
+    font-style: italic;
+    font-weight: 900;
+}
+.chansocheat{
+ color: #41D6BB;
+}
+.homeRightSide{
+    width: 300px;
+    position: relative;
+    box-shadow: 10px 10px #41D6BB,-10px -10px #41D6BB,15px 15px 5px rgba(0,0,0,.3);
+    background-color: rgb(80, 69, 69);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.homeRightSide:hover{
+    box-shadow: 20px 20px 10px #41D6BB,-20px -20px 10px #41D6BB;
+}
+.homeRightSide:active{
+    transform: scale(.95);
+}
+.homeRightSide img{
+    width: 300px;
+}
+@media (max-width:800px) {
+  .home{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 20px;
+  }   
+  .homeLeftSide{
+    margin-top: 80px;
+  }
+  .homeRightSide{
+    margin-top: 50px;
+  }
+    
+}
