@@ -37,8 +37,11 @@ function Navbar() {
     opacity:0
   }
 const [state,setState]=useState(false);
-
+const overlayStyle={
+  pointerEvents: "none"
+}
   return (
+    <>
     <nav style={state?navChange:{}} className={styles.navbar}>
         <div className={styles.logo}><span className={styles.port}>port</span><span className={styles.folio}>folio</span></div>
         <ul style={state?toggle:{}}>
@@ -67,6 +70,10 @@ const [state,setState]=useState(false);
 
         </div>
     </nav>
+    <div style={state?{}:overlayStyle} onMouseOver={()=>{
+     setState(false);
+    }} className={styles.overlay}></div>
+    </>
   )
 }
 
