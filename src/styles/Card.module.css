@@ -14,7 +14,7 @@
     cursor: pointer;
     border: 2px solid #12463D;
     position: relative;
-
+   
 }
 .card:hover{
     transform: scale(1.05);
@@ -26,7 +26,7 @@
 .imgContainer{
     margin-top: 20px;
     width: 80%;
-    height: 230px;
+    height: 200px;
     overflow: hidden;
     position: relative;
     border-bottom: 2px solid #12463D;
@@ -39,6 +39,8 @@
 }
 .title{
     font-weight: 500;
+    align-self: flex-start;
+    margin-left: 20px;
 }
 
 .circleContainer{
@@ -60,4 +62,21 @@
 }
 .circle2{
     background-color: #CFECE7;
+}
+.titleBlock{
+    display: flex;
+    gap: 5px;
+    align-self: flex-start;
+    margin-left: 20px;
+
+}
+.titleBlock p{
+    background: #12463dfa;
+    padding: 5px;
+    border-radius: 10px;
+    color: #CFECE7;
+}
+a{
+    text-decoration: none;
+    color: #12463D;
 }

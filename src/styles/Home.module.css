@@ -68,6 +68,10 @@
 .homeRightSide img{
     width: 300px;
 }
+.major{
+  color: transparent;
+  -webkit-text-stroke: 1px #12463D; /* width and color */
+}
 @media (max-width:800px) {
   .home{
     flex-direction: column;

@@ -16,6 +16,7 @@ function Home() {
             <h1 className={styles.HiImChansocheat}>
               Hi I'm <span className={styles.chansocheat}>Chansocheat</span>
             </h1>
+            <h1 className={styles.major}>Computer Science Student</h1>
             
             <p className='content'>
               

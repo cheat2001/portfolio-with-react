@@ -1,9 +1,21 @@
 import React from 'react'
 import styles from "../styles/Card.module.css";
-function Card({image,title}) {
+import ModalWindow from './ModalWindow';
+import {useState} from "react";
+function Card({image,title,html,css,js,link,info}) {
+   const [state,setState]=useState(false);
   return (
+    <a href={link} target="_blank" onClick={()=>{
+      if(link==undefined){
+        // setState(true);
+        alert("Sorry! I didn't deploy this project yet!");
+      }
+    }}>
+      {/* {state&&<ModalWindow infomation={info} state={setState}/>} */}
     <div className={styles.card}>
-      <div className={styles.circleContainer}>
+      <div className={styles.circleContainer} onClick={()=>{
+        setState(false)
+      }}>
       <div className={`${styles.circle1} ${styles.circle}`}></div>
       <div className={`${styles.circle2} ${styles.circle}`}></div>
       <div className={`${styles.circle3} ${styles.circle}`}></div>
@@ -11,10 +23,14 @@ function Card({image,title}) {
      <div className={styles.imgContainer}>
         <img src={image} alt="" />
      </div>
-     <h3 className={styles.title}>
-        {title}
-     </h3>
+     <p className={styles.title}>{title}</p>
+     <div className={styles.titleBlock}>
+          <p>{html}</p>
+          <p>{css}</p>
+          <p>{js}</p>
+     </div>
     </div>
+    </a>
   )
 }
 

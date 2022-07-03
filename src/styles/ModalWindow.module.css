@@ -1,0 +1,53 @@
+/* .ModalWindow{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 300px;
+    background-color: #12463D;
+    z-index: 10000; 
+    padding: 20px;
+    border-radius: 10px;
+    color: #41D6BB;
+    padding-top: 50px;
+    transition: 0.5s;
+}
+.overlay{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #12463dcc;
+    z-index: 1000;
+    transition: 0.5s;
+}
+.containerCircle{
+    top: 20px;
+    display: flex;
+    position: absolute;
+    gap: 10px;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+h1{
+    padding-bottom: 20px;
+    border-bottom: 2px solid #8af7e3;
+}
+.circle2{
+    background-color: #41D6BB;
+}
+.circle3{
+    background-color: #8af7e3;
+}
+.info{
+    text-align: center;
+    margin-top: 50px;
+} */
