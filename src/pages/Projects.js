@@ -12,9 +12,8 @@ function Projects() {
   return (
     <Animation>
       <div className={styles.projects}>
-        <h1 className={styles.title}>
-        Projects
-        </h1>
+        <div className={styles.title}>
+        </div>
        <div className={styles.card}>
        <Card image={Sabey} title="Sabey Clone" html="HTML" css="CSS" js="JS"/>
        <Card image={Kub} title="Kub PengPaong" html="HTML" css="CSS" js="JS" link="https://kubpengpaong.web.app/"/>

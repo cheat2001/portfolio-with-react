@@ -8,7 +8,7 @@
     padding: 100px;
 }
 .card{
-    border: 2px solid #12463D;
+    border: 3px solid #41d6bb54;
     padding: 20px 0;
     margin-top: 20px;
     width: 100%;
@@ -17,15 +17,15 @@
     flex-wrap: wrap;
     gap: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px #12463d7e;
+    box-shadow: 0 0 10px #41d6bb9d;
 }
 .title{
-    padding: 10px 20px;
-    border: 2px solid #12463D;
-    box-shadow: 2px 2px 2px #12463df1,-2px -2px 2px #41D6BB;
-    border-top: 2px solid #41d6bb6c;
-    border-left: 2px solid #41D6BB;
-    border-radius: 10px;
+    min-width: 200px;
+    min-height: 100px;
+    background-image: url("../images/project.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 @media (max-width:600px) {
     .projects{

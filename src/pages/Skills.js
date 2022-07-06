@@ -18,9 +18,8 @@ function Skills() {
   return (
   <Animation>
       <div className={styles.skills}>
-        <h1 className={styles.title}>
-         Skills
-        </h1>
+        <div className={styles.title}>
+        </div>
         <SkillProgress image={Html5Icon} percentage="80%"/>
         <SkillProgress image={CssIcon} percentage="70%"/>
         <SkillProgress image={JsICon} percentage="65%"/>

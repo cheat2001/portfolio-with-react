@@ -13,11 +13,13 @@
     font-style: italic;
 }
 .title{
-    padding: 10px 40px;
-    border: 2px solid #12463D;
-    box-shadow: 2px 2px 2px #12463df1,-2px -2px 2px #41D6BB;
-    border-top: 2px solid #41d6bb6c;
-    border-left: 2px solid #41D6BB;
-    border-radius: 10px;
+   min-width: 150px;
+   min-height: 150px;
+   border-radius: 50%;
+   background-image: url("../images//skill.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   
 }
 

@@ -8,7 +8,7 @@ function Card({image,title,html,css,js,link,info}) {
     <a href={link} target="_blank" onClick={()=>{
       if(link==undefined){
         // setState(true);
-        alert("Sorry! I didn't deploy this project yet!");
+        alert("Oop! Sorry! I haven't deployed this project yet!");
       }
     }}>
       {/* {state&&<ModalWindow infomation={info} state={setState}/>} */}
