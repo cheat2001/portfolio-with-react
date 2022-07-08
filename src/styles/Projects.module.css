@@ -20,9 +20,9 @@
     box-shadow: 0 0 10px #41d6bb9d;
 }
 .title{
-    min-width: 200px;
-    min-height: 100px;
-    background-image: url("../images/project.png");
+    min-width: 250px;
+    min-height: 250px;
+    background-image: url("../images/project.gif");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;

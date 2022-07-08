@@ -9,14 +9,16 @@
    padding-top: 100px;
 } 
 .aboutMe{
-min-width: 300px;
- min-height: 300px;
+ min-width: 250px;
+ min-height: 250px;
  background-color: #41d6bb50;
  border-radius: 50%;
- background-image: url("../images/man.png");
+ background-image: url("../images/dude.gif");
  background-position: center;
  background-repeat: no-repeat;
- background-size: auto;
+ background-size: contain;
+ box-shadow: 0 0 10px #41d6bb9d;
+ border: 3px solid #41d6bb54;
 }
 .content{
     max-width: 1000px;

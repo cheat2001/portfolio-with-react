@@ -8,10 +8,11 @@ function Home() {
   return (
    <Animation>
      <div className={styles.home}>
-      
+     
           <div className={styles.homeLeftSide}>
             <p className={styles.welcomeToMyPortfolio}>
               Welcome To My Portfolio
+              <div className={styles.wave}></div>
             </p>
             <h1 className={styles.HiImChansocheat}>
               Hi I'm <span className={styles.chansocheat}>Chansocheat</span>

@@ -11,7 +11,9 @@ function Contact() {
   return (
     <Animation>
        <div className={styles.contact}>
+       <div className={styles.animate}></div>
        <div className={styles.socialMedia}>
+
         <h1>Social Media</h1>
          <div className={styles.socialMediaContainer}>
          <SocialMedia url="https://web.facebook.com/sok.chansocheat.1" image={Facebook}/>
