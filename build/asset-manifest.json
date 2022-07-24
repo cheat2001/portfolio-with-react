@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e026404b.css",
-    "main.js": "/static/js/main.805b54d4.js",
+    "main.css": "/static/css/main.67dbd542.css",
+    "main.js": "/static/js/main.9d6d7aa1.js",
     "static/media/vaikaorm.png": "/static/media/vaikaorm.31cb9eea4703d16bb051.png",
     "static/media/contact.gif": "/static/media/contact.948e24c8baa711af7261.gif",
     "static/media/sabey.png": "/static/media/sabey.5f1044f3e51ea1839a26.png",
@@ -9,16 +9,16 @@
     "static/media/skill.gif": "/static/media/skill.2652a88796969e51fce3.gif",
     "static/media/kub.jpg": "/static/media/kub.80a64316ae24053423d1.jpg",
     "static/media/frame.jpg": "/static/media/frame.12c9e2abd37f5f717e64.jpg",
-    "static/media/dude.gif": "/static/media/dude.b15b04eeb813a5bd8633.gif",
     "static/media/wave.gif": "/static/media/wave.a244b4bb8eccb59bf8a7.gif",
+    "static/media/coding.gif": "/static/media/coding.dad52f04d321534e210e.gif",
     "static/media/telegram.png": "/static/media/telegram.5a5050df4ab7e5922f26.png",
     "static/media/quiz.png": "/static/media/quiz.9b5c1bf5d523df71782b.png",
     "index.html": "/index.html",
-    "main.e026404b.css.map": "/static/css/main.e026404b.css.map",
-    "main.805b54d4.js.map": "/static/js/main.805b54d4.js.map"
+    "main.67dbd542.css.map": "/static/css/main.67dbd542.css.map",
+    "main.9d6d7aa1.js.map": "/static/js/main.9d6d7aa1.js.map"
   },
   "entrypoints": [
-    "static/css/main.e026404b.css",
-    "static/js/main.805b54d4.js"
+    "static/css/main.67dbd542.css",
+    "static/js/main.9d6d7aa1.js"
   ]
 }
