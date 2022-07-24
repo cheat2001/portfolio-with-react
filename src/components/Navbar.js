@@ -70,9 +70,9 @@ const overlayStyle={
 
         </div>
     </nav>
-    <div style={state?{}:overlayStyle} onMouseOver={()=>{
+    {/* <div style={state?{}:overlayStyle} onMouseOver={()=>{
      setState(false);
-    }} className={styles.overlay}></div>
+    }} className={styles.overlay}></div> */}
     </>
   )
 }
