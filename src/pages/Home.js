@@ -20,8 +20,7 @@ function Home() {
             <h1 className={styles.major}>Computer Science Student</h1>
             
             <p className='content'>
-              
-            I’m Chansocheat the kind of person that‘s curious about a new technoloy that’s broad around the world.I really crazy about coding.
+            I’m Chansocheat, the kind of person that‘s curious about a new technology that’s sweeping around the world. I am really crazy about coding.
             </p>
           </div>
           <div onClick={()=>{
