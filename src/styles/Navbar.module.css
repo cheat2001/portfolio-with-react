@@ -81,5 +81,7 @@
         opacity: 0;
         pointer-events: all;
         z-index: 100000;
+        background-color: red;
+        left: 0;
     }
 }

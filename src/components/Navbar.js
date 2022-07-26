@@ -40,6 +40,33 @@ const [state,setState]=useState(false);
 const overlayStyle={
   pointerEvents: "none"
 }
+
+  React.useEffect(() => {
+    function handleResize() {
+    if(window.innerWidth>=600){
+      
+      setState(false);
+    }
+    
+}
+
+    window.addEventListener('resize', handleResize)
+  })
+
+
+  React.useEffect(() => {
+    function handleClick() {
+      console.log('click event triggered');
+    }
+  
+    document.body.style.minHeight = '100vh';
+    document.body.addEventListener('click', handleClick);
+  
+    return () => {
+      document.body.removeEventListener('click', handleClick);
+    };
+  }, []);
+
   return (
     <>
     <nav style={state?navChange:{}} className={styles.navbar}>
@@ -71,7 +98,7 @@ const overlayStyle={
         </div>
     </nav>
     {/* <div style={state?{}:overlayStyle} onMouseOver={()=>{
-     setState(false);
+     setState(true);
     }} className={styles.overlay}></div> */}
     </>
   )
