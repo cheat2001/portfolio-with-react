@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.60da8a83.css",
-    "main.js": "/static/js/main.2033ec85.js",
+    "main.css": "/static/css/main.b46662b7.css",
+    "main.js": "/static/js/main.1c9bf2c9.js",
     "static/media/vaikaorm.png": "/static/media/vaikaorm.31cb9eea4703d16bb051.png",
     "static/media/contact.gif": "/static/media/contact.948e24c8baa711af7261.gif",
-    "static/media/sabey.png": "/static/media/sabey.5f1044f3e51ea1839a26.png",
     "static/media/project.gif": "/static/media/project.65123a1b3cf494adce8b.gif",
     "static/media/skill.gif": "/static/media/skill.2652a88796969e51fce3.gif",
     "static/media/kub.jpg": "/static/media/kub.80a64316ae24053423d1.jpg",
     "static/media/frame.jpg": "/static/media/frame.12c9e2abd37f5f717e64.jpg",
     "static/media/wave.gif": "/static/media/wave.a244b4bb8eccb59bf8a7.gif",
+    "static/media/sabay.png": "/static/media/sabay.6b09952426d47e1aa7aa.png",
     "static/media/coding.gif": "/static/media/coding.dad52f04d321534e210e.gif",
-    "static/media/telegram.png": "/static/media/telegram.5a5050df4ab7e5922f26.png",
+    "static/media/ac.png": "/static/media/ac.8cd85f384fa83223334c.png",
+    "static/media/qrcode.png": "/static/media/qrcode.9b10788b35b8fffb39c6.png",
     "static/media/quiz.png": "/static/media/quiz.9b5c1bf5d523df71782b.png",
     "index.html": "/index.html",
-    "main.60da8a83.css.map": "/static/css/main.60da8a83.css.map",
-    "main.2033ec85.js.map": "/static/js/main.2033ec85.js.map"
+    "main.b46662b7.css.map": "/static/css/main.b46662b7.css.map",
+    "main.1c9bf2c9.js.map": "/static/js/main.1c9bf2c9.js.map"
   },
   "entrypoints": [
-    "static/css/main.60da8a83.css",
-    "static/js/main.2033ec85.js"
+    "static/css/main.b46662b7.css",
+    "static/js/main.1c9bf2c9.js"
   ]
 }

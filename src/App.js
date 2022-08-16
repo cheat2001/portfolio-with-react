@@ -8,6 +8,7 @@ import Projects from "./pages/Projects";
 import NotFound from "./pages/NotFound";
 import Contact from "./pages/Contact";
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
+import Footer from './components/Footer';
 function App() {
   return (
     <BrowserRouter>
@@ -20,6 +21,7 @@ function App() {
          <Route path='*' element={<NotFound/>}/>
          <Route path='/contact' element={<Contact/>}/>
        </Routes>
+       <Footer/>
     </BrowserRouter>
   )
 }

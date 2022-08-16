@@ -5,9 +5,10 @@ import Card from "../components/Card"
 import Kub from "../images/kub.jpg"
 import Vaikaorm from "../images/vaikaorm.png"
 import Quiz from "../images/quiz.png"
-import Telegram from "../images/telegram.png"
-import Sabey from "../images/sabey.png"
+
+import Sabay from "../images/sabay.png"
 import More from "../images/more.jpg"
+import Ac from "../images/ac.png"
 function Projects() {
   return (
     <Animation>
@@ -15,11 +16,12 @@ function Projects() {
         <div className={styles.title}>
         </div>
        <div className={styles.card}>
-       <Card image={Sabey} title="Sabey Clone" html="HTML" css="CSS" js="JS"/>
-       <Card image={Kub} title="Kub PengPaong" html="HTML" css="CSS" js="JS" link="https://kubpengpaong.web.app/"/>
-       <Card image={Vaikaorm} title="Vai Kaorm" html="HTML" css="CSS" js="JS" link="https://vaikaorm.web.app/"/>
-       <Card image={Quiz} title="Khmer Quiz" html="HTML" css="CSS" js="JS" link="https://cheatquiz.pages.dev/"/>
-       <Card image={Telegram} title="Telegram Clone" html="HTML" css="CSS" js="JS"/>
+       <Card image={Ac} title="Telegram Clone" languages={["React JS"]} link="https://acledabankclone.web.app/"/>
+       <Card image={Sabay} title="Sabey Clone" languages={["React JS"]} link="https://sabayclone.web.app/"/>
+       <Card image={Kub} title="Kub PengPaong" languages={["HTML","CSS","JavaScript"]} link="https://kubpengpaong.web.app/"/>
+       <Card image={Vaikaorm} title="Vai Kaorm" languages={["HTML","CSS","JavaScript"]} link="https://vaikaorm.web.app/"/>
+       <Card image={Quiz} title="Khmer Quiz" languages={["HTML","CSS","JavaScript"]} link="https://cheatquiz.pages.dev/"/>
+      
        <Card image={More} title="And Many More..."/>
        </div>
     </div>
