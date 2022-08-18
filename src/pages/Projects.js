@@ -16,7 +16,7 @@ function Projects() {
         <div className={styles.title}>
         </div>
        <div className={styles.card}>
-       <Card image={Ac} title="Telegram Clone" languages={["React JS"]} link="https://acledabankclone.web.app/"/>
+       <Card image={Ac} title="ACLEDA Bank Plc. Clone" languages={["React JS"]} link="https://acledabankclone.web.app/"/>
        <Card image={Sabay} title="Sabey Clone" languages={["React JS"]} link="https://sabayclone.web.app/"/>
        <Card image={Kub} title="Kub PengPaong" languages={["HTML","CSS","JavaScript"]} link="https://kubpengpaong.web.app/"/>
        <Card image={Vaikaorm} title="Vai Kaorm" languages={["HTML","CSS","JavaScript"]} link="https://vaikaorm.web.app/"/>
