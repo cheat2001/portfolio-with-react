@@ -55,16 +55,9 @@ const overlayStyle={
 
 
   React.useEffect(() => {
-    function handleClick() {
-      console.log('click event triggered');
-    }
-  
+
     document.body.style.minHeight = '100vh';
-    document.body.addEventListener('click', handleClick);
   
-    return () => {
-      document.body.removeEventListener('click', handleClick);
-    };
   }, []);
 
   return (
@@ -73,19 +66,19 @@ const overlayStyle={
         <div className={styles.logo}><span className={styles.port}>port</span><span className={styles.folio}>folio</span></div>
         <ul style={state?toggle:{}}>
              <li>
-                 <NavLink style={navLinkStyle} to={"/"}>HOME</NavLink>
+                 <NavLink onClick={()=>setState(false)} style={navLinkStyle} to={"/"}>HOME</NavLink>
              </li>
              <li>
-                 <NavLink style={navLinkStyle} to={"/about"}>ABOUT</NavLink>
+                 <NavLink onClick={()=>setState(false)} style={navLinkStyle} to={"/about"}>ABOUT</NavLink>
              </li>
              <li>
-                 <NavLink style={navLinkStyle} to={"/skills"}>SKILLS</NavLink>
+                 <NavLink onClick={()=>setState(false)} style={navLinkStyle} to={"/skills"}>SKILLS</NavLink>
              </li>
              <li>
-                 <NavLink style={navLinkStyle} to={"/projects"}>PROJECTS</NavLink>
+                 <NavLink  onClick={()=>setState(false)} style={navLinkStyle} to={"/projects"}>PROJECTS</NavLink>
              </li>
              <li>
-                 <NavLink style={navLinkStyle} to={"/contact"}>CONTACT</NavLink>
+                 <NavLink onClick={()=>setState(false)} style={navLinkStyle} to={"/contact"}>CONTACT</NavLink>
              </li>
         </ul>
         <div onClick={()=>{
